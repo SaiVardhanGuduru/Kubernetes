@@ -9,4 +9,4 @@ managedNodeGroups:
   - name: expense
     instanceType: m5.large
     desiredCapacity: 3
-    capacityType: SPOT
+    spot: true
