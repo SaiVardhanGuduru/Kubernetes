@@ -4,7 +4,7 @@ metadata:
   name: env
 spec:
   containers:
-  - name: nginx_resource
+  - name: nginxResource
     image: nginx
     resources:
       # soft limit
